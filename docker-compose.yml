@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  api:
+    image: dotnet-api:1.0
+    build: ./dotnet
+    ports:
+      - "5000:80"
